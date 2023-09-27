@@ -1,0 +1,294 @@
+[
+  {
+    "company": "Appfire",
+    "position": "Senior Software Engineer",
+    "salary": [{ "salary": "17000 - 24500", "salaryType": "UoP" }],
+    "locations": [
+      "Zdalnie",
+      "Rzeszów",
+      "Wrocław",
+      "Trójmiasto",
+      "Gdańsk",
+      "Gdańsk",
+      "Rzeszów, Wrocław, Trójmiasto"
+    ],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/appfire_logo_small_square_20220930_152347.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/senior-software-engineer-appfire-remote-2",
+    "companyUrl": "https://nofluffjobs.com/pl/company/appfire-akyn0ibo",
+    "stack": [
+      "Java",
+      "Node.js",
+      "React",
+      "OOP",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Web applications",
+      "Security"
+    ]
+  },
+  {
+    "company": "Splunk Services Sp. z o.o.",
+    "position": "Full Stack Software Engineer (26945)",
+    "salary": [
+      { "salary": "14000 - 19250", "salaryType": "UoP" },
+      { "salary": "168000 - 231000", "salaryType": "UoP" }
+    ],
+    "locations": ["Kraków", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/splunkcorplogo_w_20230324_123959.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/full-stack-software-engineer-26945-splunk-services-krakow-catkft3f",
+    "companyUrl": "https://nofluffjobs.com/pl/company/splunk-jyvqylg2",
+    "stack": [
+      "Python",
+      "REST API",
+      "JavaScript",
+      "React",
+      "Backbone.js",
+      "HTML5",
+      "CSS3",
+      "TDD",
+      "CI/CD",
+      "K8s",
+      "Kinesis",
+      "Kafka",
+      "C++",
+      "Java",
+      "Scala"
+    ]
+  },
+  {
+    "company": "Volvo Tech Hub Poland",
+    "position": "Senior Cyber Security Engineer",
+    "salary": [{ "salary": "18000 - 30000", "salaryType": "UoP" }],
+    "locations": ["Kraków", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/logo380x80_20230809_101207.png",
+    "offerUrl": "https://nofluffjobs.com/pl/job/senior-cyber-security-engineer-volvo-tech-hub-poland-krakow",
+    "companyUrl": "https://nofluffjobs.com/pl/company/volvo-tech-hub-poland-e9zvxjyv",
+    "stack": [
+      "IoT",
+      "Cryptography",
+      "C",
+      "C++",
+      "Python",
+      "Bash",
+      "Linux",
+      "Protocols",
+      "CAN",
+      "TCP",
+      "IEEE",
+      "BLE",
+      "Bluetooth",
+      "SAFe",
+      "Degree",
+      "International Software Testing Qualifications Board",
+      "CISSP",
+      "OSCP",
+      "Gerrit",
+      "Wireshark",
+      "Embedded system"
+    ]
+  },
+  {
+    "company": "Untitled Kingdom",
+    "position": "Web Domain Leader",
+    "salary": [
+      { "salary": "18000 - 25000", "salaryType": "B2B" },
+      { "salary": "15000 - 21000", "salaryType": "UZ" }
+    ],
+    "locations": ["Zdalnie", "Kraków", "Kraków, Przemysłowa 12"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/uk_sygnet256x256_20230922_163132.png",
+    "offerUrl": "https://nofluffjobs.com/pl/job/web-domain-leader-untitled-kingdom-remote",
+    "companyUrl": "https://nofluffjobs.com/pl/company/untitled-kingdom-9zoxhixk",
+    "stack": [
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "NestJS",
+      "Unit testing",
+      "PostgreSQL",
+      "MariaDB",
+      "MongoDB",
+      "Team management",
+      "React",
+      "Docker"
+    ]
+  },
+  {
+    "company": "Appfire",
+    "position": "Principal Software Engineer",
+    "salary": [{ "salary": "23500 - 35000", "salaryType": "UoP" }],
+    "locations": [
+      "Zdalnie",
+      "Rzeszów",
+      "Trójmiasto",
+      "Wrocław",
+      "Gdańsk",
+      "Gdańsk",
+      "Rzeszów, Trójmiasto, Wrocław"
+    ],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/appfire_logo_small_square_20220930_152347.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/principal-software-engineer-appfire-remote",
+    "companyUrl": "https://nofluffjobs.com/pl/company/appfire-akyn0ibo",
+    "stack": [
+      "Java",
+      "Node.js",
+      "React",
+      "OOP",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Web applications",
+      "Security"
+    ]
+  },
+  {
+    "company": "AVENGA",
+    "position": "FullStack Developer",
+    "salary": [
+      { "salary": "21840 - 27720", "salaryType": "B2B" },
+      { "salary": "16500 - 21000", "salaryType": "UoP" }
+    ],
+    "locations": ["Kraków", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/mark_color_20230718_135159.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/fullstack-developer-avenga-krakow",
+    "companyUrl": "https://nofluffjobs.com/pl/company/avenga-mzcumzqt",
+    "stack": [
+      "Java",
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Maven",
+      "XML",
+      "REST API",
+      "JSON",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "Design Patterns"
+    ]
+  },
+  {
+    "company": "Link Group",
+    "position": "SAP Security Architect",
+    "salary": [{ "salary": "25000 - 29000", "salaryType": "UoP" }],
+    "locations": ["Warszawa", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/link_group_240px_20230925_093339.png",
+    "offerUrl": "https://nofluffjobs.com/pl/job/sap-security-architect-link-group-warszawa-wihjda70",
+    "companyUrl": "https://nofluffjobs.com/pl/company/link-group-ccywok00",
+    "stack": ["SAP", "Security", "GRC", "Architecture"]
+  },
+  {
+    "company": "Splunk Services Sp. z o.o.",
+    "position": "Software Engineer - Fullstack (28047)",
+    "salary": [
+      { "salary": "20000 - 27500", "salaryType": "UoP" },
+      { "salary": "240000 - 330000", "salaryType": "UoP" }
+    ],
+    "locations": ["Kraków", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/splunkcorplogo_w_20230324_123959.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/software-engineer-fullstack-28047-splunk-services-krakow-fgnjiy1u",
+    "companyUrl": "https://nofluffjobs.com/pl/company/splunk-jyvqylg2",
+    "stack": [
+      "Python",
+      "REST API",
+      "JavaScript",
+      "Java",
+      "Go",
+      "Azure",
+      "AWS",
+      "GCP",
+      "Open API",
+      "Swagger",
+      "SQL"
+    ]
+  },
+  {
+    "company": "Deviniti",
+    "position": "Full Stack Developer",
+    "salary": [
+      { "salary": "15000 - 23500", "salaryType": "B2B" },
+      { "salary": "12500 - 20000", "salaryType": "UoP" }
+    ],
+    "locations": ["Zdalnie", "Wrocław", "Wrocław, ul. Sudecka 153"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/logo_claim_orange__exclusion_zone_20230926_124004.png",
+    "offerUrl": "https://nofluffjobs.com/pl/job/full-stack-developer-deviniti-remote-owkxfujp",
+    "companyUrl": "https://nofluffjobs.com/pl/company/deviniti-15ed7uyh",
+    "stack": ["JavaScript", "React", "TypeScript", "Node.js"]
+  },
+  {
+    "company": "Ringier Axel Springer Tech",
+    "position": "JavaScript Engineer / Team Leader",
+    "salary": [
+      { "salary": "18100 - 25200", "salaryType": "B2B" },
+      { "salary": "16000 - 21700", "salaryType": "UoP" }
+    ],
+    "locations": ["Warszawa", "Wrocław", "Kraków", "Hybrydowo"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/279386504_5162539777162082_1852772655128630191_n_1_20221026_135337_20230816_110443.jpg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/javascript-engineer-team-leader-ringier-axel-springer-tech-warszawa",
+    "companyUrl": "https://nofluffjobs.com/pl/company/ringier-axel-springer-tech-jkmryssm",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Microservices",
+      "AWS"
+    ]
+  },
+  {
+    "company": "ASTEK Polska",
+    "position": "Senior Fullstack Engineer",
+    "salary": [
+      { "salary": "21000 - 23520", "salaryType": "B2B" },
+      { "salary": "125 - 140", "salaryType": "B2B" }
+    ],
+    "locations": ["Zdalnie", "Warszawa", "Warszawa"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/thumbnail_20230105_123229.png",
+    "offerUrl": "https://nofluffjobs.com/pl/job/senior-fullstack-engineer-astek-polska-remote",
+    "companyUrl": "https://nofluffjobs.com/pl/company/astek-polska-4olndfg3",
+    "stack": [
+      "React",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Django",
+      "ORM",
+      "FastAPI",
+      "Flask",
+      "Snowflake",
+      "Oracle",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Postgres",
+      "CI/CD Pipelines"
+    ]
+  },
+  {
+    "company": "RTB House",
+    "position": "SOC Engineer / SOC Technical Lead",
+    "salary": [{ "salary": "25000 - 33000", "salaryType": "B2B" }],
+    "locations": ["Zdalnie", "Warszawa", "Warszawa, Niepodległości 68"],
+    "logoUrl": "https://static.nofluffjobs.com/companies/logos/original_pixel_image/rtb_house_20180425_140801_20220818_112240.jpeg",
+    "offerUrl": "https://nofluffjobs.com/pl/job/soc-engineer-soc-technical-lead-rtb-house-remote",
+    "companyUrl": "https://nofluffjobs.com/pl/company/rtb-house-fqxub8bu",
+    "stack": [
+      "Linux",
+      "GCP",
+      "Security",
+      "Security in big data environment",
+      "DevOps",
+      "Bash",
+      "SaaS",
+      "EDR",
+      "DLP",
+      "IDS",
+      "IPS",
+      "Python",
+      "SCC",
+      "SIEM"
+    ]
+  }
+]
