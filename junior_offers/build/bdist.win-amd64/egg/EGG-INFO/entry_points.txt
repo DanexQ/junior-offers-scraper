@@ -1,2 +1,0 @@
-[scrapy]
-settings = junior_offers.settings
