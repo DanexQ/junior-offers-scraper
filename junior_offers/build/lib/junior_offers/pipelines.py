@@ -46,16 +46,13 @@ class JuniorOffersPipeline:
 
         return item
 
-from dotenv import load_dotenv, find_dotenv
-import os
 from pymongo import MongoClient
+import certifi
 
 class SaveToMongoDBPipeline:
     def __init__(self):
-        load_dotenv(find_dotenv())
-        password = os.environ.get("PASSWORD_MONGODB")
-        connection_string= f"mongodb+srv://danexq:{password}@joboffers.jjwhd3n.mongodb.net/?retryWrites=true&w=majority"
-        client = MongoClient(connection_string)
+        connection_string= f"mongodb+srv://danexq:nirLnr7kwAjljss6@joboffers.jjwhd3n.mongodb.net/?retryWrites=true&w=majority"
+        client = MongoClient(connection_string,tlsCAFile=certifi.where())
         self.collection = client.JobOffers.get_collection("JobOffers")
         self.offersInDb= [x for x in self.collection.find({}, {'_id':0})]
         

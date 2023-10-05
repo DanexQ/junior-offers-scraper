@@ -4,7 +4,7 @@ from junior_offers.items import JobOfferItem
 class NofluffjobsspiderSpider(scrapy.Spider):
     name = "nofluffjobsspider"
     allowed_domains = ["nofluffjobs.com"]
-    start_urls = ["https://nofluffjobs.com/pl/?criteria=employment%3Dzlecenie%20seniority%3Dexpert&page=1"]
+    start_urls = ["https://nofluffjobs.com/pl/?criteria=seniority%3Dtrainee,junior&page=1"]
 
     def parse(self, response):
         offers = response.css("div.list-container")[0].css("a.posting-list-item::attr(href)").getall()
@@ -24,8 +24,8 @@ class NofluffjobsspiderSpider(scrapy.Spider):
             'salariesTypes': response.css(".salary div span::text").getall(),
         }
 
-        locations = response.css(".locations-compact li div::text").get(default=None)
-        if locations is not None:
+        locations = response.css(".locations-compact li div::text").get().strip()
+        if len(locations) == 0:
             locations = response.css(".locations div.popover-body div ul li a span::text").getall()
             if len(locations) == 0:
                 locations = response.css(".popover-locations div.popover-body ul li a::text").getall()

@@ -24,10 +24,12 @@ class JuniorOffersPipeline:
         # Strip locations 
         locations = adapter.get("locations")
         formattedLocations = []
-        for location in locations:
-            formattedLocations.append(location.strip())
-        adapter["locations"] = formattedLocations;
-        
+        if type(locations) is not str:
+            for location in locations:
+                formattedLocations.append(location.strip())
+            adapter["locations"] = formattedLocations;
+        else:
+            adapter["locations"] = locations
         # Strip tech stack
         strippedTech = []
         for tech in adapter.get("stack"):
@@ -46,16 +48,18 @@ class JuniorOffersPipeline:
 
         return item
 
+from pymongo import MongoClient
+import os
+import certifi
 from dotenv import load_dotenv, find_dotenv
 import os
-from pymongo import MongoClient
 
 class SaveToMongoDBPipeline:
     def __init__(self):
         load_dotenv(find_dotenv())
         password = os.environ.get("PASSWORD_MONGODB")
         connection_string= f"mongodb+srv://danexq:{password}@joboffers.jjwhd3n.mongodb.net/?retryWrites=true&w=majority"
-        client = MongoClient(connection_string)
+        client = MongoClient(connection_string,tlsCAFile=certifi.where())
         self.collection = client.JobOffers.get_collection("JobOffers")
         self.offersInDb= [x for x in self.collection.find({}, {'_id':0})]
         
